@@ -9,6 +9,7 @@
   ],
 
   "Pipelines": [
+	  {"name":"RUPSHIVADF.json"}
   ],
 
     "Stoptriggers": [  
