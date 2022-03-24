@@ -3,12 +3,12 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Waiting for RUPSHIV",
+				"name": "Waiting for RUPSHIV for 10 secs",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"waitTimeInSeconds": 2
+					"waitTimeInSeconds": 10
 				}
 			}
 		],
