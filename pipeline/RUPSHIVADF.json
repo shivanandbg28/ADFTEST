@@ -1,0 +1,19 @@
+{
+	"name": "RUPSHIVADF",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 2
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-03-24T11:17:30Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
