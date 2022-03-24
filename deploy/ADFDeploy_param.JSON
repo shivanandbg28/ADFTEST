@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+
+  "linkedservices": [
+	      ],
+
+  "datasets":[
+    {"name":"DS_ADLS_PARQUET.json"},
+    {"name":"DS_CONSUMPTION_DB.json"},
+    {"name":"DS_ORACLE_INTERNAL_PARAMETERIZE.json"},
+    {"name":"DS_SQLSERVER_INT_PARAMETERIZED.json"}
+  ],
+
+  "Pipelines": [
+    {"name":"PL_DELETEFILES.json"},
+    {"name":"PL_GENERIC_SOURCE_TO_RAW.json"},
+    {"name":"PL_GENERIC_SOURCE_TO_RAW_SQLSERVER.json"},
+	{"name":"PL_MAIN.json"}
+  ],
+
+    "Stoptriggers": [  
+  ],
+  
+  "triggers": [   
+      ],
+
+   "Starttriggers": [  
+  ]
+
+ 
+}
+
