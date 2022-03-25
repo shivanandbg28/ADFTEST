@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://RUPSHIV-keyvault.vault.azure.net/"
+			"baseUrl": "https://kv-rupshiv-prod.vault.azure.net/"
 		}
 	}
 }
