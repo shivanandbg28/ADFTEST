@@ -1,0 +1,17 @@
+{
+	"name": "RUPSHIVLKDB",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault_DB_RUPSHIV",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "RUPSHIVSQL"
+			}
+		}
+	}
+}
