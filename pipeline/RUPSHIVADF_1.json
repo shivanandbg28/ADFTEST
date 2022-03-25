@@ -1,0 +1,17 @@
+{
+	"name": "RUPSHIVADF_1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait for RUPSHIV",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": []
+	}
+}

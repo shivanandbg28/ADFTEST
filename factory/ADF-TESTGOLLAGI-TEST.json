@@ -1,0 +1,9 @@
+{
+	"name": "ADF-TESTGOLLAGI-TEST",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "08097551-b82b-4532-a69d-6f6e65ef2665",
+		"tenantId": "5ef4053f-85cb-457d-b97d-dab08446895a"
+	}
+}
