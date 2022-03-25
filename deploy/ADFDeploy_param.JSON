@@ -3,13 +3,19 @@
   "contentVersion": "1.0.0.0",
 
   "linkedservices": [
-	      ],
+	  {"name":"AzureKeyVault_DB_RUPSHIV.json"},
+	  {"name":"RUPSHIVLKDB.json"}
+	  
+	  
+  ],
 
   "datasets":[
+	    {"name":"AzureSqlTable1.json"},
+	   {"name":"AzureSqlTable2.json"}
   ],
 
   "Pipelines": [
-	  {"name":"RUPSHIVADF.json"}
+	  {"name":"pipeline1.json"}
   ],
 
     "Stoptriggers": [  
